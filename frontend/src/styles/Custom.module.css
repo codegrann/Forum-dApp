@@ -1,0 +1,185 @@
+.card {
+	margin: 1rem;
+	padding: 1rem;
+	text-align: left;
+	text-wrap: pretty;
+	word-break: break-word;
+	/* background: -moz-linear-gradient(90deg, rgba(10,20,45,1) 15%, rgba(39,57,123,1) 38%, rgba(233,116,87,1) 91%);
+background: -webkit-linear-gradient(90deg, rgba(10,20,45,1) 15%, rgba(39,57,123,1) 38%, rgba(233,116,87,1) 91%);
+background: linear-gradient(90deg, rgba(10,20,45,1) 15%, rgba(39,57,123,1) 38%, rgba(233,116,87,1) 91%); */
+background: content-box repeating-conic-gradient(#041828ff 0.0002% 0.00195%, #B24A4Aff 0.002% 0.0015%);
+	color: #FFFFFFdd;
+	text-decoration: none;
+	border-radius: 10px;
+	border-width: 2px;
+	border-color: #1A3B5Bff;
+	border-style: solid;
+	transition: color 0.15s ease, border-color 0.15s ease;
+	width: 80vw;
+}
+
+.card p{
+	margin: 0em 1em 4em 1em;
+}
+
+.cardPlain {
+	margin: 1rem;
+	padding: 1rem;
+	text-align: left;
+	text-wrap: pretty;
+	word-break: break-word;
+	background-color: #12295Cff;
+	color: #fefefe;
+	text-decoration: none;
+	border-radius: 10px;
+	transition: color 0.15s ease, border-color 0.15s ease;
+	width: 80vw;
+}
+
+.cardPlain p {
+	margin: 0em 1em 4em 1em;
+}
+
+.cardPlain a:hover {
+	color: #D8EDFFff;
+}
+
+.vote {
+	display: inline-block;
+}
+
+.vote button {
+	font-family: Gilroy;
+	margin-right: 0.5rem;
+	max-width: 300px;
+	height: 2rem;
+	padding: 5px 10px;
+	font-size: 1rem;
+	border-radius: 10px;
+	border-style: none;
+}
+
+.vote button:hover{
+	box-shadow: rgb(181, 89, 243) 0 0 5px 2px;
+}
+
+
+.form {
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	border: #8d8d8d;
+	margin: 0.2em;
+	align-content: center;
+	justify-content: center;
+	gap: 0.5em;
+}
+
+.form label {
+	color: #fff;
+}
+
+.card:hover {
+	/* box-shadow: #99CAFB 0 0 30px 2px; */
+	box-shadow: rgb(243, 89, 89) 0 0 25px 2px;
+transition: background 2s, box-shadow 1s;
+}
+
+.main {
+	min-height: 100vh;
+	padding: 4rem 0;
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.form button {
+	font-family: Gilroy;
+	max-width: 300px;
+	height: 50px;
+	padding: 5px 10px;
+	font-size: 1rem;
+	border-radius: 10px;
+	border-style: none;
+}
+
+.form button:hover {
+	box-shadow: rgb(243, 89, 89) 0 0 5px 2px;
+}
+
+.form textarea {
+	width: inherit;
+	height: 200px;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: Gilroy;
+	line-height: 1.5;
+	resize: none; /* Disable resizing if desired */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form input[type="text"] {
+	width: inherit;
+	padding: 15px;
+	border: 1px solid #ddd;
+	border-radius: 5px;
+	font-size: 16px;
+	font-family: Gilroy;
+	line-height: 1.5;
+	resize: none; /* Disable resizing if desired */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	background-color: #fff;
+	transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form textarea:focus, .form input[type="text"]:focus {
+	outline: none;
+	box-shadow: rgb(243, 89, 89) 0 0 5px 2px;
+}
+
+.bottomPrimary {
+	display: flex;
+	flex-direction: row-reverse;
+	align-self: flex-start;
+}
+
+.secondary {
+	display: flex;
+	flex-direction: row;
+	gap: 0.25rem;
+}
+
+.address {
+	font-family: "Gilroy-Bold";
+	font-style: italic;
+	color:rgb(249, 249, 249);
+	font-weight: bold;
+}
+
+.address {
+	color: rgb(243, 89, 89);
+	text-shadow: 2px rgb(243, 89, 89);
+}
+
+.description {
+	margin: 0 0 1em;
+	overflow: hidden;
+	line-height: 1.5em;
+	max-height: 300px;
+	padding: 12px;
+}
+
+.description :hover {
+	overflow: auto;
+	scrollbar-width: thin;
+}
+
+.home {
+	margin-bottom: 1rem;
+}
